@@ -1,0 +1,12 @@
+.container {
+    background-color: black;
+    color: aliceblue;
+    height: 100px;
+    width: 130px;
+    text-align:center;
+    margin-top: 4px;
+}
+
+.container h2{ 
+    margin-top: 4px;
+}

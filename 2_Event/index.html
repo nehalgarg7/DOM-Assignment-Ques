@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container1" class="container">
+        <h2>Click on Me</h2>
+    </div>
+
+    <div id="container2" class="container">
+        <h2>Double Click <br> on Me</h2>
+    </div>
+
+    <div id="container3"class="container" onmouseover="handleMouseOver()" onmouseout="handleMouseOut()">
+        <h2>Mouse</h2>
+    </div>
+
+    <div id="container4" class="container" onkeydown="handleKeyPress(event)">
+        Key Press Event
+    </div>
+
+    <div id="container5" class="container">
+        Key Up and Down Event
+    </div>
+</body>
+</html>
